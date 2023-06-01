@@ -47,6 +47,7 @@ function App() {
               src={selectedVideo}
               autoplay
               preload="auto"
+              title="videos"
             />
             <button className="video-close">
               <IoCloseCircleOutline onClick={() => setSelectedVideo("")} />
