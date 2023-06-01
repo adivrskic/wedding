@@ -27,7 +27,7 @@ function App() {
           className="wedding-full"
           onClick={() =>
             setSelectedVideo(
-              "https://player.vimeo.com/video/832386284?h=0cba7347e0&autoplay=1&controls=0"
+              "https://player.vimeo.com/video/832386284?h=0cba7347e0&autoplay=1"
             )
           }
         >
