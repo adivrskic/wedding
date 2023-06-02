@@ -26,6 +26,7 @@ body {
   background-color: #fbfaf5;
   color: #c9a144;
   min-height: 100%;
+  overflow: hidden;
   padding-bottom: env(safe-area-inset-bottom);
 }
 

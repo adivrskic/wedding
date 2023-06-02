@@ -14,7 +14,7 @@ function App() {
           className="wedding-highlights"
           onClick={() =>
             setSelectedVideo(
-              "https://youtube.com/embed/4FOV-G4fDjU?controls=0&rel=0&showinfo=0&modestbranding=1&allowfullscreen=1"
+              "https://youtube.com/embed/4FOV-G4fDjU?autoplay=1&controls=1&rel=0&showinfo=0&modestbranding=1&allowfullscreen=1"
             )
           }
         >
