@@ -28,7 +28,7 @@ body {
   background-color: #fbfaf5;
   color: #c9a144;
   min-height: 100%;
-  overflow: hidden;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 code {
@@ -99,6 +99,7 @@ h1 {
   opacity: 0;
   filter: blur(20px);
   z-index: 100;
+  overflow: hidden;
   animation: animateVideoIn 1s ease-in-out forwards;
 }
 
