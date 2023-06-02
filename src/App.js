@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
+import Div100vh from "react-div-100vh";
+
 function App() {
   const [selectedVideo, setSelectedVideo] = useState("");
 
   //https://youtu.be/4FOV-G4fDjU
   return (
-    <div className="app">
+    <Div100vh className="app">
       <main className="main">
         <h1>Dajla & Adi</h1>
         <div
@@ -55,7 +57,7 @@ function App() {
           </div>
         )}
       </main>
-    </div>
+    </Div100vh>
   );
 }
 
