@@ -23,7 +23,7 @@ function App() {
             <br />
             Highlights
           </p>
-          <img src="/assets/images/highlights.png" alt="wedding highlights" />
+          <img src="/assets/images/highlights.webp" alt="wedding highlights" />
         </div>
         <div
           className="wedding-full"
@@ -38,7 +38,7 @@ function App() {
             <br />
             Full
           </p>
-          <img src="/assets/images/full.png" alt="wedding full" />
+          <img src="/assets/images/full.webp" alt="wedding full" />
         </div>
 
         {selectedVideo && (
